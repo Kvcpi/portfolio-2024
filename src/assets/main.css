@@ -9,8 +9,6 @@
 
 body {
   font-family: 'Roboto', 'Arial', sans-serif;
-  background-color: var(--background-color);
-  color: var(--text-color);
   margin: 0;
   padding: 0;
   line-height: 1.6;
@@ -19,23 +17,61 @@ body {
 .wrapper {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 0 20px;
 }
 
 /* Navigation styles */
 header {
   background-color: var(--primary-color);
-  padding: 20px 0;
+  padding: 15px 0;
   position: fixed;
   width: 100%;
   top: 0;
   z-index: 1000;
+  transition: all 0.3s ease;
 }
 
 nav {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+}
+
+.logo {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: var(--background-color);
+}
+
+.nav-links {
+  display: flex;
+}
+
+.nav-links a {
+  color: var(--background-color);
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 1.1em;
+  font-weight: 500;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-links a:hover, .nav-links a.router-link-active {
+  color: var(--accent-color);
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+.hamburger span {
+  display: block;
+  width: 25px;
+  height: 3px;
+  background-color: var(--background-color);
+  margin: 5px 0;
+  transition: all 0.3s ease;
 }
 
 nav a {
@@ -50,6 +86,54 @@ nav a {
 nav a:hover, nav a.router-link-active {
   color: var(--accent-color);
 }
+  
+  @media screen and (max-width: 768px) {
+    .nav-links {
+      display: none;
+      position: fixed;
+      top: 60px;
+      left: 0;
+      width: 100%;
+      background-color: var(--primary-color);
+      flex-direction: column;
+      align-items: center;
+      padding: 20px 0;
+    }
+  
+    .nav-links.active {
+      display: flex;
+    }
+  
+    .hamburger {
+      display: block;
+    }
+  
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+    .logo {
+      flex: 0 0 auto;
+    }
+  
+    .hamburger {
+      flex: 0 0 auto;
+      margin-left: auto;
+    }
+  }
+  header.menu-open .hamburger span:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+  }
+
+  header.menu-open .hamburger span:nth-child(2) {
+    opacity: 0;
+  }
+
+  header.menu-open .hamburger span:nth-child(3) {
+    transform: rotate(-45deg) translate(7px, -6px);
+  }
 
 /* Home page styles */
 .home-page {

@@ -1,19 +1,39 @@
 <script setup>
+import { ref } from 'vue'
 import { RouterLink, RouterView } from 'vue-router'
-import './assets/main.css';
+
+const isMenuOpen = ref(false)
+
+const toggleMenu = () => {
+  isMenuOpen.value = !isMenuOpen.value
+}
+
+const closeMenu = () => {
+  isMenuOpen.value = false
+}
 </script>
 
 <template>
-  <header class="fixed-header"> 
+  <header :class="{ 'menu-open': isMenuOpen }">
     <div class="wrapper">
       <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/projets">Mes Projets</RouterLink>
-        <RouterLink to="/about">À propos</RouterLink>
-        <RouterLink to="/contact">Contact</RouterLink>
+        <RouterLink to="/" class="logo" @click="closeMenu">KS</RouterLink>
+        <div class="nav-links" :class="{ 'active': isMenuOpen }">
+          <RouterLink to="/" @click="closeMenu">Home</RouterLink>
+          <RouterLink to="/projets" @click="closeMenu">Mes Projets</RouterLink>
+          <RouterLink to="/about" @click="closeMenu">À propos</RouterLink>
+          <RouterLink to="/contact" @click="closeMenu">Contact</RouterLink>
+        </div>
+        <div class="hamburger" @click="toggleMenu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
       </nav>
     </div>
   </header>
 
-  <RouterView />
+  <main>
+    <RouterView />
+  </main>
 </template>

@@ -2,13 +2,13 @@
   <main class="about-page">
     <section class="intro">
       <h1>À propos de moi</h1>
-      <p>Passionné de web design</p>
+      <p>Passionné de web design et de développement</p>
     </section>
 
     <section class="about-content">
       <div class="about-text">
         <h2>Mon parcours</h2>
-        <p>Je suis Kacper Szymanski, un étudiant en Web Design passionné par la création d'expériences numériques uniques et engageantes. Mon parcours dans le monde du design a commencé il y a 2 ans, et depuis, je n'ai cessé d'apprendre et de grandir dans ce domaine en constante évolution.</p>
+        <p>Je suis Kacper Szymanski, un étudiant en Web Design passionné par la création d'expériences numériques uniques et engageantes. Mon parcours dans le monde du design et du développement web a commencé il y a moins de 2 ans, et depuis, je n'ai cessé d'apprendre et de grandir dans ce domaine en constante évolution.</p>
         <p>Ma formation en Web Design m'a donné une base solide en design graphique et en programmation, que j'ai constamment enrichie par des projets personnels et des collaborations diverses.</p>
       </div>
       <div class="about-skills">
