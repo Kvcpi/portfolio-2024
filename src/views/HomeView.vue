@@ -8,7 +8,7 @@
       <h1>Kacper Szymanski</h1>
       <p>Étudiant en Web Design</p>
       <p>Bienvenue sur mon portfolio !</p>
-      <a href="#projects" class="btn">Voir mes projets</a>
+      <a href="/projets" class="btn">Voir mes projets</a>
     </section>
 
     <!-- Section compétences -->
@@ -39,11 +39,18 @@
       </div>
     </section>
 
+    <section class="github" id="github">
+      <h2>GitHub</h2>
+      <p>Vous pouvez consulter un premier jet de mon CV et mon Portfolio mais également mes premiers exercices en JavaScript. <br>
+        Cela se passe ici: <a href="https://github.com/Kvcpi" target="_blank">www.github.com/Kvcpi</a>
+      </p>
+    </section>
+
     <!-- Section contact -->
     <section class="contact" id="contact">
       <h2>Contactez-moi</h2>
       <p>Envie de collaborer ou d'en savoir plus ?</p>
-      <RouterLink to="/contact" class="btn">Me Contacter</RouterLink>
+      <RouterLink to="/contact" id="transition-link" class="btn">Me Contacter</RouterLink>
     </section>
   </main>
 </template>

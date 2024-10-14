@@ -26,8 +26,8 @@
     <section class="contact-info">
       <h2>Autres moyens de me contacter</h2>
       <ul>
-        <li>Email : kacperr.szymanski@gmail.com</li>
-        <li>GitHub : github.com/Kvcpi</li>
+        <li>Email : <a href="mailto:kacperszymanski.design@gmail.com">kacperszymanski.design@gmail.com</a></li>
+        <li>Téléphone : <a href="tel:+32488063799">+32 488 063 799</a></li>
       </ul>
     </section>
   </main>
