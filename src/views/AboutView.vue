@@ -27,6 +27,30 @@
       </div>
     </section>
 
+    <section id="experiences-professionnelles">
+      <h2>Mes Expériences Professionnelles</h2>
+      <div class="experience-card">
+        <h3>mars 2023 - présent</h3>
+        <h4>Job étudiant</h4>
+        <p>Colruyt, Etterbeek</p>
+        <p>Employé polyvalent en temps qu'étudiant dans un magasin. (caisse, stock, magasin, frigo)</p>
+      </div>
+
+      <div class="experience-card">
+        <h3>février 2023 - mars 2023</h3>
+        <h4>Stage Secrétariat</h4>
+        <p>Facq, Zaventem</p>
+        <p>Gestion des ressources humaines</p>
+      </div>
+
+      <div class="experience-card">
+        <h3>2022</h3>
+        <h4>Stage Secrétariat</h4>
+        <p>Bruxelles Formation, Uccle</p>
+        <p>Gestion de contrat, de planning et participation aux réunions d'équipe.</p>
+      </div>
+    </section>
+
     <section id="parcours-scolaire">
       <h2>Mon Parcours Scolaire</h2>
       <div class="timeline">
@@ -46,7 +70,8 @@
             <h4>CESS-CQ6 (Option Bureautique)</h4>
             <p>Athénée Royal Jean Absil, Etterbeek</p>
             <p>Optention de mon CESS et d'un diplôme technique en temps que Tecnhicien de bureau.
-              J'ai developpé de sévères compétences en bureautique comme le pack Office (Word, Excel, Powerpoint), la dactylographie, la gestion des documents et bien plus encore.
+              J'ai developpé de sévères compétences en bureautique comme le pack Office (Word, Excel, Powerpoint), la
+              dactylographie, la gestion des documents et bien plus encore.
             </p>
           </div>
         </div>

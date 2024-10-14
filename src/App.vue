@@ -32,7 +32,6 @@ const closeMenu = () => {
       </nav>
     </div>
   </header>
-
   <main>
     <RouterView />
   </main>
