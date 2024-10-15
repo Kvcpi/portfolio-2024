@@ -17,7 +17,7 @@ const closeMenu = () => {
   <header :class="{ 'menu-open': isMenuOpen }">
     <div class="wrapper">
       <nav>
-        <RouterLink to="/" class="logo" @click="closeMenu"><img src="/src/img/logo2.png" alt="logo"></RouterLink>
+        <RouterLink to="/" class="logo" @click="closeMenu"><img src="/public/img/logo2.png" alt="logo"></RouterLink>
         <div class="nav-links" :class="{ 'active': isMenuOpen }">
           <RouterLink to="/" @click="closeMenu">Home</RouterLink>
           <RouterLink to="/projets" @click="closeMenu">Mes Projets</RouterLink>
