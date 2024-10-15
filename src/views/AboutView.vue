@@ -2,7 +2,6 @@
   <main class="about-page">
     <section class="intro">
       <h1>À propos de moi</h1>
-      <p>Passionné de web design et de développement</p>
     </section>
 
     <section class="about-content">
@@ -13,6 +12,8 @@
           de 2 ans, et depuis, je n'ai cessé d'apprendre et de grandir dans ce domaine en constante évolution.</p>
         <p>Ma formation en Web Design m'a donné une base solide en design graphique et en programmation, que j'ai
           constamment enrichie par des projets personnels et des collaborations diverses.</p>
+        <p>Je possède également un permis de conduire, ce qui me permet de me déplacer facilement pour des rendez-vous ou des missions sur site.
+        </p>
       </div>
       <div class="about-skills">
         <h2>Mes compétences</h2>
@@ -23,6 +24,15 @@
           <li>Adobe Creative Suite</li>
           <li>WordPress & WooCommerce</li>
           <li>SEO & Web Analytics</li>
+        </ul>
+      </div>
+      <div class="about-skills">
+        <h2>Mes qualités</h2>
+        <ul>
+          <li>Précrastinateur</li>
+          <li>Capacité d'écoute</li>
+          <li>Adaptation</li>
+          <li>Débrouillard</li>
         </ul>
       </div>
     </section>

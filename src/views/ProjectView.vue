@@ -7,7 +7,6 @@
 
     <section class="projects-list">
       <article class="project-item" v-for="project in projects" :key="project.id">
-        <img :src="project.image" :alt="project.title">
         <h2>{{ project.title }}</h2>
         <p>{{ project.description }}</p>
         <div class="project-tags">
@@ -28,7 +27,7 @@ const projects = ref([
     title: 'Maquette site fictif - XUI',
     description: 'Maquette du site web fictif sous le nom de Sweet Home.',
     tags: ['Figma', 'Illustrator', 'Photoshop',],
-    link: '#'
+    link: './src/img/Sweet Home - maquettes.png',
   },
   {
     id: 2,

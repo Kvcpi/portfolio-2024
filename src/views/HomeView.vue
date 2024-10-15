@@ -25,23 +25,21 @@
     <!-- Section projets -->
     <section class="projects" id="projects">
       <h2>Mes Projets</h2>
-      <div class="project-list">
+      <div class="projects-list">
         <article class="project-item">
-          <h3>Projet 1</h3>
-          <p>Description du projet 1</p>
-          <a href="#" class="btn">Voir plus</a>
+          <h2>Maquette site fictif - XUI </h2>
+          <a href="/projets" class="btn">Voir plus</a>
         </article>
         <article class="project-item">
-          <h3>Projet 2</h3>
-          <p>Description du projet 2</p>
-          <a href="#" class="btn">Voir plus</a>
+          <h2>Projet 2</h2>
+          <a href="/projets" class="btn">Voir plus</a>
         </article>
       </div>
     </section>
 
     <section class="github" id="github">
       <h2>GitHub</h2>
-      <p>Vous pouvez consulter un premier jet de mon CV et mon Portfolio mais également mes premiers exercices en JavaScript. <br>
+      <p>Vous pouvez consulter un premier jet de mon CV et de mon Portfolio mais également mes premiers exercices en JavaScript. <br>
         Cela se passe ici: <a href="https://github.com/Kvcpi" target="_blank">www.github.com/Kvcpi</a>
       </p>
     </section>

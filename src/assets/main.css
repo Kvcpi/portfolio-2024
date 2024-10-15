@@ -212,7 +212,7 @@ nav a:hover, nav a.router-link-active {
 
 .projects-list {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(2,1fr);
   gap: 30px;
   padding: 60px 20px;
   background-color: var(--secondary-color);
@@ -547,7 +547,7 @@ nav a:hover, nav a.router-link-active {
   }
 }
 .github {
-  padding: 80px 20px;
+  padding: 0 20px 20px;
   background-color: var(--secondary-color);
   display: grid;
   align-items: center;
