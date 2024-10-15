@@ -94,4 +94,8 @@
       <RouterLink to="/contact" class="btn">Contactez-moi</RouterLink>
     </section>
   </main>
+  <BackToTop />
 </template>
+<script setup>
+import BackToTop from '../components/BackToTop.vue'
+</script>

@@ -1,4 +1,5 @@
 <script setup>
+import BackToTop from '../components/BackToTop.vue'
 </script>
 
 <template>
@@ -51,6 +52,7 @@
       <RouterLink to="/contact" id="transition-link" class="btn">Me Contacter</RouterLink>
     </section>
   </main>
+  <BackToTop />
 </template>
 
 

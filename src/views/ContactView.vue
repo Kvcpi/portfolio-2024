@@ -7,19 +7,21 @@
 
     <section class="contact-form">
       <form @submit.prevent="submitForm">
-        <div class="form-group">
-          <label for="name">Nom</label>
-          <input type="text" id="name" v-model="form.name" required>
-        </div>
-        <div class="form-group">
-          <label for="email">Email</label>
-          <input type="email" id="email" v-model="form.email" required>
-        </div>
-        <div class="form-group">
-          <label for="message">Message</label>
-          <textarea id="message" v-model="form.message" required></textarea>
-        </div>
-        <button type="submit" class="btn">Envoyer</button>
+        <form action="https://formspree.io/f/mnnqqzgy" method="POST">
+          <div class="form-group">
+            <label for="name">Nom</label>
+            <input type="text" id="name" v-model="form.name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" v-model="form.email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" v-model="form.message" name="message" required></textarea>
+          </div>
+          <button type="submit" class="btn">Envoyer</button>
+        </form>
       </form>
     </section>
 
@@ -31,6 +33,7 @@
       </ul>
     </section>
   </main>
+  <BackToTop />
 </template>
 
 <script setup>
@@ -48,6 +51,7 @@ const submitForm = () => {
   // Réinitialiser le formulaire après soumission
   form.value = { name: '', email: '', message: '' }
 }
+import BackToTop from '../components/BackToTop.vue'  
 </script>
 
 <style scoped>

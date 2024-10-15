@@ -16,6 +16,7 @@
       </article>
     </section>
   </main>
+  <BackToTop />
 </template>
 
 <script setup>
@@ -39,4 +40,5 @@ const projects = ref([
   },
   // Ajoutez d'autres projets ici
 ])
+import BackToTop from '../components/BackToTop.vue'
 </script>
