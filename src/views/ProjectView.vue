@@ -5,7 +5,7 @@
       <p>Découvrez une sélection de mes travaux récents</p>
     </section>
 
-    <section class="projects-list">
+    <section class="projects-list" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200">
       <article class="project-item" v-for="project in projects" :key="project.id">
         <h2>{{ project.title }}</h2>
         <p>{{ project.description }}</p>

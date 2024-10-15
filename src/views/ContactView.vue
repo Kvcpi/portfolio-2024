@@ -5,7 +5,7 @@
       <p>N'hésitez pas à me contacter pour toute question ou proposition de collaboration</p>
     </section>
 
-    <section class="contact-form">
+    <section class="contact-form"data-aos="slide-up" data-aos-duration="1000">
       <form @submit.prevent="submitForm">
         <form action="https://formspree.io/f/mnnqqzgy" method="POST">
           <div class="form-group">
@@ -25,7 +25,7 @@
       </form>
     </section>
 
-    <section class="contact-info">
+    <section class="contact-info" data-aos="fade-up-right">
       <h2>Autres moyens de me contacter</h2>
       <ul>
         <li>Email : <a href="mailto:kacperszymanski.design@gmail.com">kacperszymanski.design@gmail.com</a></li>

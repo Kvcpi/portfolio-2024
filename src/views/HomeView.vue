@@ -13,7 +13,7 @@ import BackToTop from '../components/BackToTop.vue'
     </section>
 
     <!-- Section compétences -->
-    <section class="skills" id="skills">
+    <section class="skills" id="skills" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
       <h2>Compétences</h2>
       <ul>
         <li>HTML / CSS / JavaScript</li>
@@ -24,7 +24,7 @@ import BackToTop from '../components/BackToTop.vue'
     </section>
 
     <!-- Section projets -->
-    <section class="projects" id="projects">
+    <section class="projects" id="projects" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
       <h2>Mes Projets</h2>
       <div class="projects-list">
         <article class="project-item">
@@ -40,7 +40,7 @@ import BackToTop from '../components/BackToTop.vue'
       </div>
     </section>
 
-    <section class="github" id="github">
+    <section class="github" id="github" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
       <h2>GitHub</h2>
       <p>Vous pouvez consulter un premier jet de mon CV et de mon Portfolio mais également mes premiers exercices en JavaScript. <br>
         Cela se passe ici: <a href="https://github.com/Kvcpi" target="_blank">www.github.com/Kvcpi</a>
