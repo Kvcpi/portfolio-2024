@@ -21,9 +21,8 @@
           <li>HTML5 / CSS3 / JavaScript</li>
           <li>Responsive Web Design</li>
           <li>UI/UX Design</li>
-          <li>Adobe Creative Suite</li>
           <li>WordPress & WooCommerce</li>
-          <li>SEO & Web Analytics</li>
+          <li>Adobe Suite (Photoshop, Illustrator)</li>
         </ul>
       </div>
       <div class="about-skills">

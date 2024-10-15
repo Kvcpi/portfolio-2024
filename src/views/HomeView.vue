@@ -31,10 +31,12 @@ import BackToTop from '../components/BackToTop.vue'
           <h2>Maquette site fictif - XUI </h2>
           <a href="/projets" class="btn">Voir plus</a>
         </article>
+        <!-- 
         <article class="project-item">
           <h2>Projet 2</h2>
           <a href="/projets" class="btn">Voir plus</a>
         </article>
+      -->
       </div>
     </section>
 

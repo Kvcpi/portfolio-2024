@@ -30,6 +30,7 @@ const projects = ref([
     tags: ['Figma', 'Illustrator', 'Photoshop',],
     link: './src/img/Sweet Home - maquettes.png',
   },
+  /*
   {
     id: 2,
     title: 'Application de gestion de tâches',
@@ -38,6 +39,7 @@ const projects = ref([
     tags: ['JavaScript', 'HTML5', 'LocalStorage'],
     link: '#'
   },
+  */
   // Ajoutez d'autres projets ici
 ])
 import BackToTop from '../components/BackToTop.vue'
