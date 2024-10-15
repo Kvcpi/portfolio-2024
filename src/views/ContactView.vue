@@ -5,7 +5,7 @@
       <p>N'hésitez pas à me contacter pour toute question ou proposition de collaboration</p>
     </section>
 
-    <section class="contact-form"data-aos="slide-up" data-aos-duration="1000">
+    <section class="contact-form" data-aos="fade-in" data-aos-duration="1000">
       <form @submit.prevent="submitForm">
         <form action="https://formspree.io/f/mnnqqzgy" method="POST">
           <div class="form-group">
