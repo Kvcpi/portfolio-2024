@@ -28,7 +28,7 @@ const projects = ref([
     title: 'Maquette site fictif - XUI',
     description: 'Maquette du site web fictif sous le nom de Sweet Home.',
     tags: ['Figma', 'Illustrator', 'Photoshop',],
-    link: '../public/img/Sweet Home - maquettes.png',
+    link: 'https://github.com/Kvcpi/portfolio-2024/blob/main/public/img/Sweet%20Home%20-%20maquettes.png?raw=true',
   },
   /*
   {
