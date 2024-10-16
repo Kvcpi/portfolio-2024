@@ -12,7 +12,9 @@
         <div class="project-tags">
           <span v-for="tag in project.tags" :key="tag">{{ tag }}</span>
         </div>
-        <a :href="project.link" class="btn" target="_blank">Voir le projet</a>
+        <a :href="project.link" class="btn" target="_blank">Voir la maquette du site fictif</a><br>
+        <a :href="project.pdfLink" class="btn" target="_blank">Voir le Brandboard et Moodboard en PDF </a>
+
       </article>
     </section>
   </main>
@@ -29,6 +31,8 @@ const projects = ref([
     description: 'Maquette du site web fictif sous le nom de Sweet Home.',
     tags: ['Figma', 'Illustrator', 'Photoshop',],
     link: 'https://github.com/Kvcpi/portfolio-2024/blob/main/public/img/Sweet%20Home%20-%20maquettes.png?raw=true',
+    pdfLink: '../public/pdf/Sweet Home - Moodboard - Brandboard.pdf',
+  
   },
   /*
   {
